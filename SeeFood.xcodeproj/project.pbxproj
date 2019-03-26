@@ -12,6 +12,7 @@
 		E6BA8922224ABA1C00F91A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BA8920224ABA1C00F91A42 /* Main.storyboard */; };
 		E6BA8924224ABA1E00F91A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6BA8923224ABA1E00F91A42 /* Assets.xcassets */; };
 		E6BA8927224ABA1E00F91A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BA8925224ABA1E00F91A42 /* LaunchScreen.storyboard */; };
+		E6BA892F224ABA9800F91A42 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E6BA892E224ABA9800F91A42 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E6BA8923224ABA1E00F91A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6BA8926224ABA1E00F91A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6BA8928224ABA1E00F91A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6BA892E224ABA9800F91A42 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				E6BA8923224ABA1E00F91A42 /* Assets.xcassets */,
 				E6BA8925224ABA1E00F91A42 /* LaunchScreen.storyboard */,
 				E6BA8928224ABA1E00F91A42 /* Info.plist */,
+				E6BA892E224ABA9800F91A42 /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6BA891F224ABA1C00F91A42 /* ViewController.swift in Sources */,
+				E6BA892F224ABA9800F91A42 /* Inceptionv3.mlmodel in Sources */,
 				E6BA891D224ABA1C00F91A42 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +287,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49X8277LH7;
 				INFOPLIST_FILE = SeeFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +306,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49X8277LH7;
 				INFOPLIST_FILE = SeeFood/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
